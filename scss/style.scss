@@ -321,7 +321,7 @@ body {
 	transition: max-height 0.3s ease-in-out;
 	&._active {
 		display: block;
-		max-height: 500px;
+		max-height: 2500px;
 		transition: max-height 0.3s ease-in-out;
 		& > li {
 			opacity: 1;

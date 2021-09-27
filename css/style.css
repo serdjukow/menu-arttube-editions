@@ -339,7 +339,7 @@ body {
 
 .header-top .sub-menu._active {
   display: block;
-  max-height: 500px;
+  max-height: 2500px;
   -webkit-transition: max-height 0.3s ease-in-out;
   transition: max-height 0.3s ease-in-out;
 }

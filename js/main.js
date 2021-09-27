@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-	const body = document.querySelector('body')
+	
 	const menuButton = document.querySelector('#header-menu')
 	const nav = document.querySelectorAll('nav')
 	const menuMenu = document.querySelectorAll('#menu-menu')
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			}
 		}
-	}
+	}	
 	addSubMenuContainer(menuItem)
 	addSubMenuContainer(subMenuLi)
 
@@ -48,9 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	const subMenuContainerA = document.querySelectorAll('.sub-menu-container > a')
 	for (let elem of subMenuContainerA) {
-		elem.addEventListener('click', (event) => {
-			event.preventDefault()
-		})
+			elem.href = '#'
 	}
 	
 	menuItem.forEach(elem => elem.addEventListener('click', (event) => {
